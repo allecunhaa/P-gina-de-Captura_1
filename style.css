@@ -1,0 +1,556 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.home .header {
+    padding: 30px 0;
+    display: flex;
+
+   
+  }
+
+     
+  
+  .home .header .logo{
+
+  margin: 0 150px;
+  }
+
+    
+  .home .header .social {
+ 
+   margin-left: 50%;
+   margin-top: 60px;
+   padding: 10px;
+    
+  }
+
+  .home .header .social ul li a{
+   padding: 10px;
+  }
+
+ .header {
+
+    width: 100%;
+    height: 150px;
+    background-color: rgb(231, 228, 228)
+    
+    
+}
+
+.home .header .social li{
+  display: inline;
+
+}
+
+
+.home .header .social ul {
+    
+    list-style: none;
+   
+  }
+  
+.banner1{
+ 
+ text-align: center;
+ background-image: url(banner.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height: 100vh;
+ margin-top:-5px ;
+    
+}
+
+.home .banner1 h1{
+
+margin-top: ;
+color: brown;
+font-size: 50px;
+ 
+}
+
+.home .banner1 h2{
+
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: rgb(95, 78, 59);
+}
+.home .banner1 span{
+
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 30%;
+  color: brown;
+  font-family:monospace
+ 
+}
+
+.container{
+  background-color:#EBEEF2;
+ text-align: center;
+
+ 
+}
+
+
+
+.contact .whatsapp{
+
+  width: 45%;
+  height: 80px;
+  border-radius: 50px;
+  border: green;
+  border-style: solid;
+  background-color: #4CD90B;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-top: 50px;
+
+ 
+ 
+}
+
+
+.email input{
+
+  width: 40%;
+  height: 20%;
+  margin-top: 30px;
+  padding: 25px;
+}
+
+p{
+
+width: 40%;
+margin-left: 30%;
+
+}
+
+.checkbox{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+#submit{
+
+
+  background-color: #097368;
+  width: 40%;
+  padding: 20px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.section{
+  display: flex
+}
+
+.section p{
+
+  color: ;
+  font-size: 40px;
+  margin-top:  100px;
+  margin-left: 40px;
+  text-align:justify ;
+}
+
+
+
+li {
+  list-style: none;
+ 
+}
+
+.countdown {
+  
+  grid-template-columns: repeat(auto-fit, minmax( 15px,90px));
+  gap: 20px;
+  padding: 10px;
+  display:grid;
+  margin-left: 65%;
+  margin-top: -10%;
+
+  
+}
+
+.countdown li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  padding: 1rem;
+  color: white;
+  background:#097368;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  
+
+
+}
+
+.countdown li span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.body{
+
+  display:block;
+
+
+}
+.body h1{
+
+font-size: 50px;
+font-weight: 600;
+font-family: 'Times New Roman', Times, serif;
+margin-top: 10%;
+
+
+
+}
+
+.body{
+
+  display: block;
+
+ 
+}
+
+.wrapper{
+
+  display:fixed;
+
+}
+.primeiro {
+  margin-top:-38%;
+  margin-left: 22%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.span1{
+
+  margin-left: -16%;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.number1, .number2, .number3, .number4 {
+
+  width: 5%;
+  height: 60px;
+  border-radius: 100%;
+ background-color: #097368;
+ margin-left: 50%;
+
+
+}
+
+.number1, .number2, .number3, .number4 {
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+}
+
+.segundo {
+  margin-top: 2%;
+  margin-left: 45%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.span2{
+
+  margin-left: 30%;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.terceiro {
+  margin-top: 2%;
+  margin-left: 19%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.span3{
+
+  margin-left: -25%;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.quarto {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 52%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*numeros dentro dos balões*/
+.number1 , .number2, .number3, .number4{
+
+  color: #fff;
+  padding: 12px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner2{
+
+  background-image: url(banner2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200vh; 
+  margin-top: 5%;
+  display:flex;
+  
+  
+}
+
+.banner2 .about{
+
+background-color: white;
+width: 40%;
+margin-top: 5%;
+padding: 20px;
+margin-left: 10%;
+margin-bottom: 10%;
+opacity: 0.8;
+
+}
+
+.banner2 .about .line{
+
+  color: #097368;
+  
+  
+}
+
+.banner2 .about h2 {
+
+  
+  color: #097368;
+
+}
+.semanadoproposito{
+
+  font-size: 20px;
+  justify-items: center;
+
+
+    
+}
+
+.aboutme{
+
+  display: flex;
+  position: relative;
+  background: white;
+
+
+}
+
+.menutre{
+
+margin-left: 15%;
+margin-top: 20px;
+
+
+
+}
+.listadeespera h3{
+
+margin-right: 60%;
+margin-top: 20px;
+font-size: 20px;
+color: orangered;
+
+}
+
+.listadeespera p{
+
+  margin-top: 10px;
+  margin-left: 5%;
+
+
+}
+
+.listadeespera button {
+
+  background-color: #4CD90B;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 20px;
+ margin-left: 60%;
+ margin-top: -10%;
+ display: flex;
+
+}
+.quemsoueu{
+  display: flex;
+  background: white;
+}
+
+.avatar{
+
+  border-radius: 50%;
+  width: 800%;
+  margin-top: 200%;
+  margin-left: 150%;
+
+  
+  
+}
+
+.quemsoueu .text h1{
+
+  margin-top: 8%;
+  margin-left: 10%;
+  font-size: 60px;
+  color: #097368;;
+  
+}
+
+.quemsoueu .text p{
+
+
+margin-top: 2%;
+margin-left: 40%;
+letter-spacing: 1px;
+font-size: 20px;
+text-align: justify;
+
+}
+
+.social2 ul li {
+
+
+  display: inline-grid;
+  margin-top: 20px;
+  
+
+}
+
+.social2 ul li a {
+
+  margin-left: 1600%;
+  padding: 2px;
+
+}
+
+.depoimentos{
+
+  display: flex;
+  margin-top: 8%;
+  text-align: center;justify-content: center;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 50px;
+ font-weight: 400;
+ color: coral;
+
+}
+.content{
+
+  display: flex;
+  margin-top: 8%;
+  
+}
+
+.text1 , .text2 ,.text3{
+
+  color: black;
+  padding: 20px;
+  background-color: rgb(224, 216, 216);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+  
+
+  
+
+   
+ 
+        
+        
+
+
+
